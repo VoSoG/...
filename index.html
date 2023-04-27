@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> Cineminha</title>
+    </head>
+    <body onload="CheckCookie()">
+        <!-- IDs
+        DIV  - A
+        P    - B
+        IMG  - C
+        H1   - D
+        FORM - E 
+             - F
+             - G-->
+        <script>
+            function CheckCookie()
+            {
+                if(navigator.cookieEnabled==true)
+                {
+                    alert("Cookies liberados")
+                }
+                else
+                {
+                    alert("Cookies não puderam ser liberados")
+                }
+            }
+
+            let subMenu = document.getElementById("subMenu");
+        
+            function toggleMenu()
+            {
+                subMenu.classList.toggle("open-menu");
+            }
+        </script>
+
+        <div class="hero">
+            <nav>
+                <h1 id="D">Cineminha</h1>
+                <form id="E" action="C:\html privado pedro\luis\teste.html">
+                    <input type="name" name="E-MAIL" required autocomplete="on" placeholder="Email">
+                    <input type="password" name="SENHA" placeholder="Senha" required>
+                    <input type="submit" name="ENTRAR">
+                </form>
+
+                <form>
+                    Selecione seu estado
+                    <select name="estado" required>
+                        <option value="ESCOLHA">SELECIONE</option>
+                        <option value="A">↘ A ↙</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value=""></option>
+                        <option value="A">↘ B ↙</option>
+                        <option value="BA">Bahia</option>
+                        <option value=""></option>
+                        <option value="A">↘ C ↙</option>
+                        <option value="CE">Ceará</option>
+                        <option value=""></option>
+                        <option value="A">↘ D ↙</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value=""></option>
+                        <option value="A">↘ E ↙</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value=""></option>
+                        <option value="A">↘ G ↙</option>
+                        <option value="GO">Goiás</option>
+                        <option value=""></option>
+                        <option value="A">↘ M ↙</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value=""></option>
+                        <option value="A">↘ P ↙</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value=""></option>
+                        <option value="A">↘ R ↙</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value=""></option>
+                        <option value="A">↘ S ↙</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+        
+                        <option value="SE">Sergipe</option>
+                        <option value=""></option>
+                        <option value="A">↘ T ↙</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </form>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <img src="https://cdn.pixabay.com/photo/2018/09/24/17/34/cinema-3700446_960_720.png" alt="banner" width="350" height="140">
+
+        <h4>Iae bora pegar um "Cineminha"?</h4>
+        <h3>Selecione qual filme deseja assistir:</h3>
+
+        <h1 id="DDD">DESTAQUES DO MÊS</h1>
+        <div class="container">
+            <div id="A" class="card"></div>
+            <div id="AA" class="card"></div>
+            <div id="AAA" class="card"></div>
+            <div id="AAAA" class="card"></div>
+            <div id="AAAAA" class="card"></div>
+        </div>
+
+        <img id="C" src="https://www.claquete.com.br/fotos/filmes/poster/11971_medio.jpg" alt="" width="130" height="170"> 
+        <h6 id="">AVATAR: O CAMINHA DA ÁGUA</h6>
+        <form action="" class="botão">
+            <a href="" class="EE">VER FILME</a>
+        </form>
+
+        <img id="CC" src="https://www.claquete.com.br/fotos/filmes/poster/12736_medio.jpg" alt="" width="130" height="170">
+        <h6 id="">HALLOWEEN ENDS</h6>
+        <form id="EEE" action="">
+            <a href="" class="botão">VER FILME</a>
+        </form>
+    </body>
+</html>

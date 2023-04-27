@@ -1,0 +1,282 @@
+html {
+    margin: -1;
+    background-color: #222D33;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color:rgb(17, 4, 4);
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(17, 4, 4);
+}
+
+#DD {
+    margin: 0;
+    padding-left: 100px;
+    color: white;
+    text-align: left;
+}
+
+#E, form {
+    color:white;
+}
+
+img {
+    display: block;
+    margin: -120 auto;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px rgb(65, 45, 45);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg,
+    #ff0000, 
+    #ffff00,
+    #ff00f3, #0033ff,
+    #ff00c4, #ff0000);
+    background-size: 50%;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(65, 45, 45);
+    font-size: 35px;
+    background: linear-gradient(90deg,
+    #ff0000, 
+    #ffff00,
+    #ff00f3, #0033ff,
+    #ff00c4, #ff0000);
+    background-size: 50%;
+    font-family: "Arial", Helvetica, sans-serif;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+#C {
+    margin-top: 100px;
+    padding-right: 1250px;
+}
+
+h6 {
+    margin-top: -150;
+    padding-left: 145px;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    border-radius: 25px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: #660202;
+    flex: 1;
+    transition: .3sec all ease;
+}
+
+.card:hover {
+    flex: 2;
+    background-color: rgb(231, 231, 238);
+}
+
+#A {
+    background-image: url(https://burnbook.b-cdn.net/wp-content/uploads/2017/07/494488.jpg-c_400_200_x-f_jpg-q_x-xxyxx.jpg);
+    display: block
+}
+
+#AA {
+    background-image: url(https://ubatanoticias.com.br/wp-content/uploads/2014/10/No-Limite-do-Amanha-041-e1412420932712.jpg);
+    display: block;
+}
+#AAA {
+    background-image: url(https://roveran.files.wordpress.com/2017/12/kingsman-the-secret-service-kingsman-servic3a7o-secreto-min.jpg?w=400&h=200&crop=1);
+    display: block;
+}
+
+#AAAA {
+    background-image: url(http://www.cinehorror.com.br/imagens-posts/halloween-2018_17-10-18_03-54-58_des.jpg);
+    display: block;
+}
+
+#AAAAA {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyZFkV2D0F6PwpGygnrH8a0GNQ0m_7Pb2kJw&usqp=CAU);
+    display: block;
+}
+
+#CC {
+    margin-top: 200px;
+    padding-right: 1250px;
+}
+
+.botão {
+    position: absolute;
+    left: 260;
+    transform: translate(-50%,-50%);
+}
+
+.EE {
+    position: relative;
+    display: block;
+    color: rgb(20, 3, 253);
+    font-size: 12px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #04beec;
+    padding: 14px 25px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.EE::before {
+    background: #ebe8e8;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 1s ease;
+}
+
+.EE::before {
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.EE:hover::before {
+    height: 380%;
+}
+
+#CCC {
+    margin-top: 200;
+    display: block;
+}
+
+#AAAAAA {
+    display: inline-block;
+    position: relative;
+}
+#AAAAAA, #B {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+}
+
+
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+#DDD {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80;
+    color: white;
+}
+
+.botão {
+    position: absolute;
+    left: 260;
+    transform: translate(-50%,-50%);
+}
+
+.EE {
+    position: relative;
+    display: block;
+    color: rgb(20, 3, 253);
+    font-size: 12px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #04beec;
+    padding: 14px 25px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.EEE::before {
+    background: #ebe8e8;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 1s ease;
+}
+
+.EEE::before {
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.EEE:hover::before {
+    height: 380%;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    background: #eceaff;
+    color: #525252;
+}
+
+nav{
+    background: #1a1a1a;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#D {
+    margin-right: 50px;
+    text-shadow: 1px 4px 1px black;
+    background: linear-gradient(90deg,
+    #ff0000, 
+    #ffff00,
+    #ff00f3, #0033ff,
+    #00ffdd, #3cff00);
+    background-size: 50%;
+    font-size: 40px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
